@@ -27,6 +27,14 @@ Then, any of the models can be run normally. The models are:
 * `DenseAdpt`, feedforward network with adaptive learning rate
 * `DenseFull`, feedforward network with both input fuzzing and adaptive learning rate
 
+### Running the models
+
+Each model can be run by calling the correct script.
+All models can be run by running the `run.jl` script.
+The `gather_data.jl` script contains useful functions for collecting the output from `.bson` files.
+
+### Running on the GPU
+
 The models will run fine on the CPU.
 They should also run on CUDA-capable GPUs.
 To do this, use the `CuArrays` package,
