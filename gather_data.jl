@@ -1,8 +1,8 @@
-cd("/home/alec/code/homework/CAS-CS-640/project/julia/")
-using Pkg
-Pkg.activate(".")
-Pkg.instantiate()
-cd("/home/alec/code/homework/CAS-CS-640/project/data")
+# cd("path/to/repository")
+
+# using Pkg
+# Pkg.activate(".")
+# Pkg.instantiate()
 
 using BSON
 

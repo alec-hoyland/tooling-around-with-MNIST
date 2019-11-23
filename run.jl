@@ -1,7 +1,8 @@
-cd("/home/alec/code/homework/CAS-CS-640/project/julia/")
-using Pkg
-Pkg.activate(".")
-Pkg.instantiate()
+# cd("/path/to/repository/")
+
+# using Pkg
+# Pkg.activate(".")
+# Pkg.instantiate()
 
 @info "including conv"
 include("conv.jl")
